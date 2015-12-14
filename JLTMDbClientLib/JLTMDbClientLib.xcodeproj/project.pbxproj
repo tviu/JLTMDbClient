@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8A84D01C1EDB6D009A008C /* JLTMDbClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84CF1C1EDB6D009A008C /* JLTMDbClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8A84DA1C1EDBDE009A008C /* JLTMDbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D71C1EDBDE009A008C /* JLTMDbClient.h */; };
+		4E8A84DB1C1EDBDE009A008C /* JLTMDbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A84D81C1EDBDE009A008C /* JLTMDbClient.m */; };
+		4E8A84DC1C1EDBDE009A008C /* JLTMDbClientDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D91C1EDBDE009A008C /* JLTMDbClientDefines.h */; };
+		4E8A84DE1C1EDD3D009A008C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A84DD1C1EDD3D009A008C /* AFNetworking.framework */; };
+		4E8A84E11C1EE0E6009A008C /* JLTMDbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A84D81C1EDBDE009A008C /* JLTMDbClient.m */; };
+		4E8A84E31C1EE0E6009A008C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A84DD1C1EDD3D009A008C /* AFNetworking.framework */; };
+		4E8A84E51C1EE0E6009A008C /* JLTMDbClientDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D91C1EDBDE009A008C /* JLTMDbClientDefines.h */; };
+		4E8A84E61C1EE0E6009A008C /* JLTMDbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D71C1EDBDE009A008C /* JLTMDbClient.h */; };
+		4E8A84E71C1EE0E6009A008C /* JLTMDbClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84CF1C1EDB6D009A008C /* JLTMDbClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E8A84F01C1EE14A009A008C /* JLTMDbClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A84D81C1EDBDE009A008C /* JLTMDbClient.m */; };
+		4E8A84F21C1EE14A009A008C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8A84DD1C1EDD3D009A008C /* AFNetworking.framework */; };
+		4E8A84F41C1EE14A009A008C /* JLTMDbClientDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D91C1EDBDE009A008C /* JLTMDbClientDefines.h */; };
+		4E8A84F51C1EE14A009A008C /* JLTMDbClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84D71C1EDBDE009A008C /* JLTMDbClient.h */; };
+		4E8A84F61C1EE14A009A008C /* JLTMDbClientLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8A84CF1C1EDB6D009A008C /* JLTMDbClientLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E8A84CC1C1EDB6D009A008C /* JLTMDbClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLTMDbClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8A84CF1C1EDB6D009A008C /* JLTMDbClientLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTMDbClientLib.h; sourceTree = "<group>"; };
+		4E8A84D11C1EDB6D009A008C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8A84D71C1EDBDE009A008C /* JLTMDbClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLTMDbClient.h; path = ../JLTMDbClient/JLTMDbClient.h; sourceTree = "<group>"; };
+		4E8A84D81C1EDBDE009A008C /* JLTMDbClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLTMDbClient.m; path = ../JLTMDbClient/JLTMDbClient.m; sourceTree = "<group>"; };
+		4E8A84D91C1EDBDE009A008C /* JLTMDbClientDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLTMDbClientDefines.h; path = ../JLTMDbClient/JLTMDbClientDefines.h; sourceTree = "<group>"; };
+		4E8A84DD1C1EDD3D009A008C /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+		4E8A84EC1C1EE0E6009A008C /* JLTMDbClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLTMDbClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8A84FB1C1EE14A009A008C /* JLTMDbClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLTMDbClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8A84C81C1EDB6D009A008C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84DE1C1EDD3D009A008C /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84E21C1EE0E6009A008C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84E31C1EE0E6009A008C /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84F11C1EE14A009A008C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84F21C1EE14A009A008C /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8A84C21C1EDB6C009A008C = {
+			isa = PBXGroup;
+			children = (
+				4E8A84FD1C1EE2FA009A008C /* Frameworks */,
+				4E8A84CE1C1EDB6D009A008C /* JLTMDbClientLib */,
+				4E8A84CD1C1EDB6D009A008C /* Products */,
+				4E8A84D71C1EDBDE009A008C /* JLTMDbClient.h */,
+				4E8A84D81C1EDBDE009A008C /* JLTMDbClient.m */,
+				4E8A84D91C1EDBDE009A008C /* JLTMDbClientDefines.h */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8A84CD1C1EDB6D009A008C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A84CC1C1EDB6D009A008C /* JLTMDbClient.framework */,
+				4E8A84EC1C1EE0E6009A008C /* JLTMDbClient.framework */,
+				4E8A84FB1C1EE14A009A008C /* JLTMDbClient.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8A84CE1C1EDB6D009A008C /* JLTMDbClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A84CF1C1EDB6D009A008C /* JLTMDbClientLib.h */,
+				4E8A84D11C1EDB6D009A008C /* Info.plist */,
+			);
+			path = JLTMDbClientLib;
+			sourceTree = "<group>";
+		};
+		4E8A84FD1C1EE2FA009A008C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8A84DD1C1EDD3D009A008C /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E8A84C91C1EDB6D009A008C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84DC1C1EDBDE009A008C /* JLTMDbClientDefines.h in Headers */,
+				4E8A84DA1C1EDBDE009A008C /* JLTMDbClient.h in Headers */,
+				4E8A84D01C1EDB6D009A008C /* JLTMDbClientLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84E41C1EE0E6009A008C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84E51C1EE0E6009A008C /* JLTMDbClientDefines.h in Headers */,
+				4E8A84E61C1EE0E6009A008C /* JLTMDbClient.h in Headers */,
+				4E8A84E71C1EE0E6009A008C /* JLTMDbClientLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84F31C1EE14A009A008C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84F41C1EE14A009A008C /* JLTMDbClientDefines.h in Headers */,
+				4E8A84F51C1EE14A009A008C /* JLTMDbClient.h in Headers */,
+				4E8A84F61C1EE14A009A008C /* JLTMDbClientLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E8A84CB1C1EDB6D009A008C /* JLTMDbClient iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A84D41C1EDB6D009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient iOS" */;
+			buildPhases = (
+				4E8A84C71C1EDB6D009A008C /* Sources */,
+				4E8A84C81C1EDB6D009A008C /* Frameworks */,
+				4E8A84C91C1EDB6D009A008C /* Headers */,
+				4E8A84CA1C1EDB6D009A008C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLTMDbClient iOS";
+			productName = JLTMDbClientLib;
+			productReference = 4E8A84CC1C1EDB6D009A008C /* JLTMDbClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E8A84DF1C1EE0E6009A008C /* JLTMDbClient tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A84E91C1EE0E6009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient tvOS" */;
+			buildPhases = (
+				4E8A84E01C1EE0E6009A008C /* Sources */,
+				4E8A84E21C1EE0E6009A008C /* Frameworks */,
+				4E8A84E41C1EE0E6009A008C /* Headers */,
+				4E8A84E81C1EE0E6009A008C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLTMDbClient tvOS";
+			productName = JLTMDbClientLib;
+			productReference = 4E8A84EC1C1EE0E6009A008C /* JLTMDbClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E8A84EE1C1EE14A009A008C /* JLTMDbClient Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8A84F81C1EE14A009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient Mac" */;
+			buildPhases = (
+				4E8A84EF1C1EE14A009A008C /* Sources */,
+				4E8A84F11C1EE14A009A008C /* Frameworks */,
+				4E8A84F31C1EE14A009A008C /* Headers */,
+				4E8A84F71C1EE14A009A008C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JLTMDbClient Mac";
+			productName = JLTMDbClientLib;
+			productReference = 4E8A84FB1C1EE14A009A008C /* JLTMDbClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8A84C31C1EDB6C009A008C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Carlos Lozano";
+				TargetAttributes = {
+					4E8A84CB1C1EDB6D009A008C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E8A84C61C1EDB6D009A008C /* Build configuration list for PBXProject "JLTMDbClientLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E8A84C21C1EDB6C009A008C;
+			productRefGroup = 4E8A84CD1C1EDB6D009A008C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8A84CB1C1EDB6D009A008C /* JLTMDbClient iOS */,
+				4E8A84DF1C1EE0E6009A008C /* JLTMDbClient tvOS */,
+				4E8A84EE1C1EE14A009A008C /* JLTMDbClient Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8A84CA1C1EDB6D009A008C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84E81C1EE0E6009A008C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84F71C1EE14A009A008C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8A84C71C1EDB6D009A008C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84DB1C1EDBDE009A008C /* JLTMDbClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84E01C1EE0E6009A008C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84E11C1EE0E6009A008C /* JLTMDbClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8A84EF1C1EE14A009A008C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8A84F01C1EE14A009A008C /* JLTMDbClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E8A84D21C1EDB6D009A008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E8A84D31C1EDB6D009A008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E8A84D51C1EDB6D009A008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/iOS\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E8A84D61C1EDB6D009A008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/iOS\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4E8A84EA1C1EE0E6009A008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/tvOS\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		4E8A84EB1C1EE0E6009A008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/tvOS\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		4E8A84F91C1EE14A009A008C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/Mac\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E8A84FA1C1EE14A009A008C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../Carthage/Build/Mac\"";
+				INFOPLIST_FILE = JLTMDbClientLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = me.adaptive.JLTMDbClient;
+				PRODUCT_NAME = JLTMDbClient;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8A84C61C1EDB6D009A008C /* Build configuration list for PBXProject "JLTMDbClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A84D21C1EDB6D009A008C /* Debug */,
+				4E8A84D31C1EDB6D009A008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8A84D41C1EDB6D009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A84D51C1EDB6D009A008C /* Debug */,
+				4E8A84D61C1EDB6D009A008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8A84E91C1EE0E6009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A84EA1C1EE0E6009A008C /* Debug */,
+				4E8A84EB1C1EE0E6009A008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8A84F81C1EE14A009A008C /* Build configuration list for PBXNativeTarget "JLTMDbClient Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8A84F91C1EE14A009A008C /* Debug */,
+				4E8A84FA1C1EE14A009A008C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8A84C31C1EDB6C009A008C /* Project object */;
+}

@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9BAE5E4180DF89500406ED6"
-               BuildableName = "JLTMDbClientTests.xctest"
-               BlueprintName = "JLTMDbClientTests"
-               ReferencedContainer = "container:JLTMDbClient.xcodeproj">
+               BlueprintIdentifier = "4E8A84EE1C1EE14A009A008C"
+               BuildableName = "JLTMDbClient Mac.framework"
+               BlueprintName = "JLTMDbClient Mac"
+               ReferencedContainer = "container:JLTMDbClientLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9BAE5E4180DF89500406ED6"
-               BuildableName = "JLTMDbClientTests.xctest"
-               BlueprintName = "JLTMDbClientTests"
-               ReferencedContainer = "container:JLTMDbClient.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9BAE5E4180DF89500406ED6"
-            BuildableName = "JLTMDbClientTests.xctest"
-            BlueprintName = "JLTMDbClientTests"
-            ReferencedContainer = "container:JLTMDbClient.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9BAE5E4180DF89500406ED6"
-            BuildableName = "JLTMDbClientTests.xctest"
-            BlueprintName = "JLTMDbClientTests"
-            ReferencedContainer = "container:JLTMDbClient.xcodeproj">
+            BlueprintIdentifier = "4E8A84EE1C1EE14A009A008C"
+            BuildableName = "JLTMDbClient Mac.framework"
+            BlueprintName = "JLTMDbClient Mac"
+            ReferencedContainer = "container:JLTMDbClientLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9BAE5E4180DF89500406ED6"
-            BuildableName = "JLTMDbClientTests.xctest"
-            BlueprintName = "JLTMDbClientTests"
-            ReferencedContainer = "container:JLTMDbClient.xcodeproj">
+            BlueprintIdentifier = "4E8A84EE1C1EE14A009A008C"
+            BuildableName = "JLTMDbClient Mac.framework"
+            BlueprintName = "JLTMDbClient Mac"
+            ReferencedContainer = "container:JLTMDbClientLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

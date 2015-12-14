@@ -23,12 +23,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFHTTPRequestOperationManager.h>
+#import <AFNetworking/AFNetworking.h>
 #import "JLTMDbClientDefines.h"
 
 typedef void (^JLTMDbClientResponse)(id response, NSError *error);
 
-@interface JLTMDbClient : AFHTTPRequestOperationManager
+@interface JLTMDbClient : AFHTTPSessionManager
 
 @property (copy, nonatomic) NSString *APIKey;
 
